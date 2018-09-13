@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="xs-col-12 menu">
+				<h1>Mina filmer</h1>
+				<h2>Filtrera filmerna</h2>
+				<button id="all" class="btn btn-default">Alla filmer</button>
+				<button id="drama" class="btn btn-default">Drama</button>
+				<button id="comedy" class="btn btn-default">Komedi</button>
+				<button id="sci-fi" class="btn btn-default">Sci-fi</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="xs-col-12">
+				<h2>Filmerna</h2>
+				<ul id="movies">
+					<li data-genre="sci-fi"><h3>Looper</h3> <button class="edit-title btn btn-warning">Uppdatera titel</button></li>
+					<li data-genre="comedy"><h3>En man som heter Ove</h3>  <button class="edit-title btn btn-warning">Uppdatera titel</button></li>
+					<li data-genre="drama"><h3>Steve Jobs</h3>  <button class="edit-title btn btn-warning">Uppdatera titel</button></li>
+					<li data-genre="comedy"><h3>Sune i fjällen</h3>  <button class="edit-title btn btn-warning">Uppdatera titel</button></li>
+					<li data-genre="sci-fi"><h3>Star Wars</h3>  <button class="edit-title btn btn-warning">Uppdatera titel</button></li>
+					<li data-genre="drama"><h3>Sicario</h3>  <button class="edit-title btn btn-warning">Uppdatera titel</button></li>
+					<li data-genre="drama"><h3>Turist</h3>  <button class="edit-title btn btn-warning">Uppdatera titel</button></li>
+					<li data-genre="sci-fi"><h3>The Martian</h3>  <button class="edit-title btn btn-warning">Uppdatera titel</button></li>
+					<li data-genre="comedy"><h3>Den där Mary</h3>  <button class="edit-title btn btn-warning">Uppdatera titel</button></li>		
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="script.js"></script>
+  </body>
+</html>

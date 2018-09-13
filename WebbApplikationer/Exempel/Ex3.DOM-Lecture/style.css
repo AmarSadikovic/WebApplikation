@@ -1,0 +1,63 @@
+body{
+	font-family: "Cambria";
+}
+
+menu{
+	width:300px;
+	margin:auto;
+	padding:0px;
+	background-color:#ccc;
+	overflow:hidden;
+}
+
+menu ul{
+	margin:0px;
+	padding:0px;
+}
+menu li{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	width:100px;
+	float:left;
+	height:50px;
+	line-height:50px;
+	font-size:20px;
+	text-align:center;
+	cursor: pointer;
+}
+.chosen{
+	background-color:#aaa;
+}
+
+#movies li{
+	min-width: 300px;
+	clear: both;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+	list-style: none;
+}
+#movies li h3{
+	float: left;
+}
+
+#movies li button{
+	float:right;
+	margin-top: 11px;
+}
+
+section{
+	width:260px;
+	padding:20px;
+	margin:auto;
+	background-color:#aaa;
+	display:none;
+}
+
+.hide{
+	display:none;
+}
+
+.container-fluid{
+	padding:20px;
+}

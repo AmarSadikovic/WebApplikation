@@ -1,0 +1,8 @@
+#tips{
+	font-style: italic;
+	padding: 20px;
+	background-color: #eee;
+	box-shadow: 0 0 5px #999;
+	font-size: 18px;
+	display: none;
+}

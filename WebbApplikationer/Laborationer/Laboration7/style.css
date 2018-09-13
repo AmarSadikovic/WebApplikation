@@ -1,0 +1,23 @@
+#wrapper{
+    margin:auto; 
+    width: 80%; 
+    text-align: center; 
+    background-color: #eee;}
+
+div{
+    min-height: 100px; 
+    line-height: 100px;
+    background-color: #eee;
+}
+section{
+    height:100%;
+}
+ul{
+    list-style-type: none;
+}
+
+.test{
+ height: 100%;
+}
+
+

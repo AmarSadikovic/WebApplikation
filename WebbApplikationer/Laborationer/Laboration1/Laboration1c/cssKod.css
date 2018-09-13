@@ -1,0 +1,55 @@
+
+
+body{
+    background-color:azure;
+    color: #cc3300;
+    margin: 60px;
+    width: auto;
+    font-size: 120%;
+    font-family: Comic Sans MS, Arial, fantasy, "Times New Roman";
+}
+
+
+h2{
+    color:forestgreen;
+}
+h3{
+    color:#ffcc66;
+}
+th{
+    text-align: center;
+}
+
+a{
+    font-family: cursive;
+}
+
+a:hover, a:focus{
+    font-weight: bold;
+}
+a:visited{
+    font-size 75%
+}
+
+table{
+    background-color:#ffff99;
+    border:1px solid #cccccc;
+    width:300px;
+}
+thead{
+    background-color:#ffff33;
+}
+td, th{
+    padding:5px;
+}
+#personal{
+    background-color:bisque;
+    border:1px solid #cccccc;
+    width:200px;
+}
+ul{
+    color: darkviolet;
+}
+.viktig{
+    color:darkgoldenrod;
+}

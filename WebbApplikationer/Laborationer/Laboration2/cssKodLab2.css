@@ -1,0 +1,54 @@
+body{
+background-image: url("background.jpg");
+    background-size:cover;
+    
+}
+
+header{
+    
+    background-color:saddlebrown;
+    color:white;
+    text-align: center;
+}
+nav{
+    width:300px;
+    float:left;
+    margin-top:50px;
+    font-family: fantasy;
+}
+section{
+    width:600px;
+    float:left;
+}
+footer{
+    background-color:black;
+    color:white;
+    text-align: center;
+    clear:both;
+}
+.container{
+    background-color:#D8EDF2;
+    width:900px;
+    margin-left: 200px;
+}
+a{
+    color:saddlebrown;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover,focus{
+    font-family:cursive;
+}
+.mainText{
+    margin-right: 100px;
+    font-family: 'Cormorant', serif;
+    color:firebrick;
+    
+}
+h1{
+    font-family:"Comic Sans MS";
+}
+h2{
+    color:darkgreen;
+}
